@@ -155,15 +155,7 @@ After tracking the locations of both extremes , it standardizes their positions 
 is the leftmost and pos2 is the rightmost. It then calculates the distance cost for three 
 alternative strategies: removing both from the left, removing both from the right, or 
 splitting the approach from both directions. 
-5. Test of Love
-Core Concept: Greedy State-Machine / Path Simulation
-Approach: Simulates navigating a river bank containing logs (L), water (W), and crocodiles 
-(C) using jump range m and swim capacity k. The code pads the boundaries and 
-implements a conditional loop. When on a log, it scans ahead up to m steps to prioritize 
-the furthest accessible log. If it must land in water, it aims for the furthest viable water 
-cell to minimize swimming. It tracks remaining swim stamina k sequentially when stepping 
-through water cells.
-6. Ugu
+5. Ugu
 Core Concept: State-Transition Counting
 Approach: Tracks the minimum operations to sort a binary string when an operation flips 
 all subsequent bits. It searches for the initial inversion point where a '1' is followed by a 
