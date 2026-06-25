@@ -62,7 +62,7 @@ that no two adjacent stones have the same color. It checks the string linearly f
 Core Concept: Two-Pointer String Reversal
 Approach: Validates if string t is the reverse of string s. It manually reverses string s in
 place by swapping symmetric characters from both ends up to the middle of the string 
-(s.size()/2). Finally, it performs a direct string equality check against
+(s.size()/2). Finally, it performs a direct string equality check against t.
 
 Week 2 Progress Summary: Advanced Greedy & Data Structures
 Overview
